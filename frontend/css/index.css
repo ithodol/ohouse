@@ -16,3 +16,51 @@
     width: 90px;
     height: 50px;
 }
+
+/* 헤더 */
+#header{
+    width: 100%;
+}
+.headerFix{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1256px;
+    margin: 0 auto;
+    align-items: center;
+}
+.headerLeft, .menu, .headerRight, .infoMenu{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    padding: 14px;
+}
+.search > i{
+    color: #828C94;
+}
+.search > input{
+    margin-left: 4px;
+    padding: 8px 8px 8px 15px;
+    font-size: 16px;
+    color: #2F3438;
+    border: 1px solid #e6e6e6;
+}
+
+.cart{
+    padding: 6px;
+}
+.cart > i{
+    color: #2F3438;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+
+.infoMenu > li > a{
+    padding: 0px 10px;
+}
+.infoMenu > li:last-child > a{
+    padding-right: 0px;
+}
